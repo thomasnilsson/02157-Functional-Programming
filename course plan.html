@@ -1,0 +1,389 @@
+
+<!-- saved from url=(0046)http://www2.imm.dtu.dk/courses/02157/plan.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script></head><body><h1>Plan for 02157 Functional Programming (Autumn 2016)</h1>
+
+<p>
+
+Teacher: <a href="http://www.compute.dtu.dk/~mire">Michael R. Hansen</a>.
+
+</p><p>
+
+Textbook: <a href="http://www.imm.dtu.dk/~mrh/FSharpBook/">Functional Programming using F#, Michael R. Hansen and Hans Rischel, Cambridge University Press, 2013</a>. (Abbreviated HR.)<br>
+The textbook is available from <a href="http://www.polyteknisk.dk/home/dtu/detailed_view/9781107684065">DTU's bookshop</a>.
+
+</p><p>
+
+<table border="1">
+
+<tbody><tr>
+
+<th>Week</th>
+
+<th>Date</th>
+
+<th>Topic</th>
+
+<th>Read</th>
+
+<th>Exercises</th>
+
+</tr>
+
+<tr>
+<td> 35 &nbsp;</td>
+<td> 2. Sept. </td>
+<td>
+Course introduction<br>
+Introduction to functional programming and F#<br>
+Lists (brief introduction)<br>
+<a href="http://www2.imm.dtu.dk/courses/02157/Lecture1.pdf">Lecture1.pdf</a> <a href="http://www2.imm.dtu.dk/courses/02157/Lecture1Handout.pdf">Lecture1Handout.pdf</a>
+</td><td>
+
+HR 1 (a careful reading)<br>
+HR 2.1-2.6 (a fast reading)<br>
+Browse through HR pages 67-76
+</td>
+
+
+<td>
+<a href="http://www2.imm.dtu.dk/courses/02157/VSintro.html">Introduction to using F# on Windows in E-Bar</a><a>
+</a><ol><a>
+<li> Exercises to get started: HR 1.1-6, 2.2
+</li></a><li><a> Exercise on polynomials represented by lists: HR 4.22 (</a><a href="http://www2.imm.dtu.dk/courses/02157/PolySkeleton.fs">program skeleton</a>)<br>
+The purpose of this exercise is to make you acquainted with some high-level features
+of F#.
+</li></ol>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td> 36 &nbsp;</td>
+
+<td> 9. Sept. </td>
+
+<td>
+Functions, Basic types and Tuples<br>
+A further glance at lists.<br>
+<a href="http://www2.imm.dtu.dk/courses/02157/Lecture2.pdf">Lecture2.pdf</a>, <a href="http://www2.imm.dtu.dk/courses/02157/Lecture2Handout.pdf">Lecture2Handout.pdf</a>
+</td>
+
+<td>
+HR 2 and HR 3.1 - 3.7 (excluding 3.3 records)<br>
+Browse through HR pages 67-76
+
+</td>
+
+<td>
+<ol>
+<li> HR 2.1, 2.6, 2.7, 2.8
+</li><li> Declare a function to generate the list of prime numbers between <em>m</em> and <em>n</em>
+</li><li> Declare a function to generate the first <em>n</em> prime numbers
+</li><li> <a href="http://www2.imm.dtu.dk/courses/02157/MergeSort.pdf">Merge sort</a>. A program to generate random lists is <a href="http://www2.imm.dtu.dk/courses/02157/randomList.fsx">here</a>
+</li></ol>
+<!-- <b>NEW</b>: <a href="ExercisesCodeJudge01.pdf">Exercise set 1</a> supported by
+ <a href ="https://dtu.codejudge.net/02157-e14/">CodeJudge</a> -->
+
+</td>
+</tr>
+
+<tr>
+<td> 37 </td>
+<td> 16. Sept. </td>
+<td>
+Lists. <br>
+<!-- <a href="Lecture3.pdf">Lecture3.pdf</a>, <a href="Lecture3_handout.pdf">Lecture3_handout.pdf</a> -->
+</td>
+
+
+<td>
+HR 4
+</td>
+<td>
+
+<ol>
+<li> HR 4.1, 4.2, 4.3, 4.9, 4.11
+</li><li> Solve HR 4.19, 4.20 to improve the map-colouring program (available from <a href="http://www.imm.dtu.dk/~mire/FSharpBook">here</a>).
+</li></ol>
+The first mandatory assignment will be release in CampusNet this Friday at 11:30.<br>
+It should be submitted under Assignments in CampusNet on Thursday, September 22, 2016.
+
+</td>
+</tr>
+
+<tr>
+<td> 38 </td>
+<td> 23. Sept. </td>
+<td>
+Disjoint union (Tagged values)<br>
+Higher-order list functions<br>
+<!-- <a href="Lecture4.pdf">Lecture4.pdf</a>, <a href="Lecture4_handout.pdf">Lecture4_handout.pdf</a> -->
+</td>
+
+<td>
+HR 3.8-3.11<br>
+HR 5.1
+</td>
+<td>
+<!--
+<ol>
+<li>HR 3.5
+<li> HR 5.2, 5.3, 5.5
+<li> Make a revised version of the Cash register example in Section 4.6 where:
+<ol>
+<li> The function findArticle is replaced by an application of List.tryFind
+<li> The function makeBill is declared using List.foldBack
+</ol>
+</ol>
+-->
+</td>
+</tr>
+
+
+<tr>
+<td> 39 </td>
+<td> 30. Sept. </td>
+<td>
+Collections: Sets and Maps<br>
+<!--<a href="Lecture5.pdf">Lecture5.pdf</a>, <a href="Lecture5_handout.pdf">Lecture5_handout.pdf</a>-->
+</td>
+
+<td>
+HR 5.2 and HR 5.3
+</td>
+<td><!--
+<ol>
+<li> HR 5.11 (based on a variant of Mandatory assignment 1)
+<li> Solve Problem 1 from the exam fall 2013 (available <a href="http://www.imm.dtu.dk/~mire/FSharpBook/oldExams.html"> here</a>). Make a solution on paper first -- the final exam will be laptop-free. Try out your program.
+<li> HR 5.7
+</ol>
+-->
+The second mandatory assignment will be release in CampusNet this Friday at 11:30.<br>
+It should be submitted under Assignments in CampusNet on Thursday, October 6, 2016.
+</td>
+</tr>
+
+
+<tr>
+<td> 40 </td>
+<td> 7. Oct. </td>
+<td>
+Finite trees (I)<br>
+<!-- <a href="Lecture6.pdf">Lecture6.pdf</a> <a href="Lecture6_handout.pdf">Lecture6_handout.pdf</a> -->
+</td>
+<td>
+HR 6
+</td>
+
+<td><!--
+<ol>
+<li> HR 6.2
+<li> <a href="ExerciseFileSystem.pdf">File System</a>
+<li> HR 6.8
+</ol> -->
+</td>
+</tr>
+
+
+<tr>
+<td> 41 </td>
+<td> 14. Oct. </td>
+<td>
+Finite trees (II)
+<!-- <br>
+Simple interpreters<br>
+<a href="Lecture7.pdf">Lecture7.pdf</a> <a href="Lecture7_handout.pdf">Lecture7_handout.pdf</a>
+-->
+</td>
+
+<td>
+HR 6
+</td>
+<td><!--
+<ol>
+<li> Solve Problem 2 from the exam fall 2011 (available <a href="http://www.imm.dtu.dk/~mire/FSharpBook/oldExams.html"> here</a>). Make a solution on paper first -- the final exam will be laptop-free. Try out your program.
+
+<li> Make an interpreter for a simple imperative language (see exercises on the slides) by completion of this <a href="interpreterSkeleton.fs">program skeleton</a>.
+
+<li> HR 6.10. The program you should extend is found  <a href="http://www.imm.dtu.dk/~mire/FSharpBook/programs.html">here</a>.
+</ol>
+-->
+The third mandatory assignment will be release in CampusNet this Friday at 11:30.<br>
+It should be submitted under Assignments in CampusNet on Thursday, October 27, 2016.
+</td>
+</tr>
+
+
+<tr>
+<td> 42 </td>
+<td> 21. Oct. </td>
+<td>
+Autumn vacation
+
+</td>
+
+<td>
+
+</td>
+
+<td>
+
+</td>
+</tr>
+
+
+
+<tr>
+<td> 43 </td>
+<td> 28. Oct. </td>
+<td>TBA
+<!--
+Efficiency
+(I)<br>
+<a href="Lecture8.pdf">Lecture8.pdf</a> <a href="Lecture8_handout.pdf">Lecture8_handout.pdf</a>
+<br><br>
+
+Modules<br>
+<a href="Lecture8Modules.pdf">Lecture8Modules.pdf</a> <a href="Lecture8Modules_handout.pdf">Lecture8Modules_handout.pdf</a>
+-->
+</td>
+<td>
+<!-- HR 9.1-9.5<br>
+HR 7-->
+</td>
+<td><!--
+<ol>
+<li> HR 7.4, 7.5
+ <li> HR 9.2, 9.3, 9.4, 9.7.1 (see <a href = "http://www.imm.dtu.dk/~mire/FSharpBook/Corrections.html">correction</a> on the textbook's homepage), 9.8
+</ol>-->
+</td>
+
+
+</tr>
+
+<tr>
+
+
+<td> 44 </td>
+<td> 4. Nov. </td>
+<td>TBA <!--Efficiency (II)<br>
+<a href="Lecture9Continuations.pdf">Lecture9Continuations.pdf</a> <a href="Lecture9Continuations_handout.pdf">Lecture9Continuations_handout.pdf</a>
+<br>
+Reactive programs<br>
+<a href="LectureDialoguePrograms.pdf">LectureDialoguePrograms.pdf</a> <br> <a href="LectureDialoguePrograms_handout.pdf">LectureDialoguePrograms_handout.pdf</a>
+<br>
+<br>
+Using F# programs from C# -- an example-->
+</td>
+
+<td><!--
+Rest of Chapter 9<br>
+HR 13.1-13.5
+</td>-->
+</td><td><!--
+<ol>
+<li> 9.6, 9.7.2, 9.9
+<li> Summer exam 02157-2014, Problem 1(1-3) -- available <a href="http://www.imm.dtu.dk/~mire/FSharpBook/oldExams.html"> here</a>
+<li> An extension to 8.6 the pocket calculator exercise: <a href="PocketCal.pdf">An optimizing compilation</a>
+</ol>-->
+</td>
+</tr>
+
+<tr>
+<td> 45 </td>
+<td> 11. Nov. </td>
+<td>TBA<!--
+Sequences<br>
+<a href="Lecture10.pdf">Lecture10.pdf</a> <a href="Lecture10_handout.pdf">Lecture10_handout.pdf</a>
+<br>
+Verification<br>
+<a href="Verification.pdf">Verification.pdf</a> <a href="Verification_handout.pdf">Verification_handout.pdf</a>-->
+</td>
+
+<td>
+<!-- HR 11 -->
+</td>
+<td><!--
+<ol>
+<li> 11.1, 11.2. 11.3, 11.9, 11.10
+<li> Summer exam 2014</a>.Problem 1(4,5) -- available <a href="http://www.imm.dtu.dk/~mire/FSharpBook/oldExams.html"> here</a>
+<li> Summer exam 2014</a>.Problem 3
+</ol>-->
+</td>
+</tr>
+
+<tr>
+<td> 46 </td>
+<td> 18. Nov. </td>
+<td>TBA<!--
+<ol>
+<li> Lambda calculus (briefly) and examples of other functional programming languages
+<a href="LectureLambda.pdf">LectureLambda.pdf</a> <a href="LectureLambda_handout.pdf">LectureLambda_handout.pdf</a>
+<li> From type specifications to programs
+<a href="TopConf.pdf">TopConf.pdf</a>
+</ol>-->
+</td>
+
+<td>
+</td>
+<td><!--
+<ol>
+<li> Solve Problem 2 and Problem 4 from the exam fall 2014 (available <a href="http://www.imm.dtu.dk/~mire/FSharpBook/oldExams.html"> here</a>). Make a solution on paper first -- the final exam will be laptop-free. Try out your program.
+</ol>
+-->
+The fourth mandatory assignment will be release in CampusNet this Friday at 11:30.<br>
+It should be submitted under Assignments in CampusNet on Thursday, November 24, 2016.
+</td>
+</tr>
+
+
+<tr>
+<td> 47 </td>
+<td> 25. Nov. </td>
+<td>TBA
+<!-- Verification<br>
+<a href="Verification.pdf">Verification.pdf</a> <a href="Verification_handout.pdf">Verification_handout.pdf</a>
+-->
+<!-- Test exam -->
+</td>
+
+<td>
+
+</td>
+
+<td>
+
+</td>
+</tr>
+
+
+<tr>
+<td> 48 </td>
+<td> 2. Dec. </td>
+<td>TBA
+<!--Course evaluation<br>
+Selected topic (short presentation)<br>
+Exercise class-->
+</td>
+
+<td>
+
+
+</td>
+<td>
+
+</td>
+</tr>
+
+
+</tbody></table>
+
+
+
+</p><hr>
+
+<p>
+
+<em>Michael R. Hansen, August 24, 2016</em> </p></body></html>
